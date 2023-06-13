@@ -1,0 +1,20 @@
+{
+   "name": "node-mcsrvstat",
+   "version": "1.0.0",
+   "description": "A npm Package who interacting with the mcsrvstat.us API.",
+   "main": "dist/index.js",
+   "repository": "https://github.com/ChokoJoestar/node-mcsrvstat",
+   "author": "ChokoJoestar",
+   "license": "MIT",
+   "private": false,
+   "keywords": [
+      "minecraft",
+      "server",
+      "status",
+      "api",
+      "library"
+   ],
+   "bugs": {
+      "url": "https://github.com/ChokoJoestar/node-mcsrvstat/issues"
+   }
+}
