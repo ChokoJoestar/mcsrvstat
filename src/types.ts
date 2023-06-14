@@ -1,4 +1,4 @@
-export interface JavaStatus {
+export interface IStatus {
    online: boolean;
    ip: string;
    port: number;
@@ -15,6 +15,9 @@ export interface JavaStatus {
       cacheexpire: number;
       apiversion: number;
    };
+}
+
+export interface JavaStatus extends IStatus {
    motd: {
       raw: string[];
       clean: string[];
@@ -24,7 +27,7 @@ export interface JavaStatus {
       online: number;
       max: number;
       list?: string[];
-      uuid: {};
+      uuid?: {};
    };
    version: string | string[];
    protocol: number;

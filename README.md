@@ -43,7 +43,9 @@ yarn add -g mcsrvstat
 ## Example
 
 ### Java Server
-```ts
+```js
+import { Status } from "mcsrvstat";
+
 const serv = new Status().getJavaStatus("GommeHD.net");
 serv.then(GommeHD => {
    console.log(GommeHD.version) // Return "1.8.x-1.20.x"
@@ -51,7 +53,9 @@ serv.then(GommeHD => {
 ```
 
 ### Bedrock Server
-```ts
+```js
+import { Status } from "mcsrvstat";
+
 const serv = new Status().getBedrockStatus("135.125.105.65:19132");
 serv.then(HiveMC => {
    console.log(HiveMC.players.max) // Return 100001
