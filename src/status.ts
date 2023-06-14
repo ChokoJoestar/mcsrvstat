@@ -5,7 +5,7 @@ import { BedrockStatus, JavaStatus } from "./types";
  * @author ChokoJoestar
  * @license MIT
  */
-class Status {
+export class Status {
    /**
     * @param host - IP for the server (GommeHD.net or 116.202.32.36:25565)
     * @example
