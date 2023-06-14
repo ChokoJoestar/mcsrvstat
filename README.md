@@ -2,7 +2,7 @@
 
 <div align="center">
 
-[![npm dependents](https://badgen.net/npm/v/node-mcsrvstat)](https://www.npmjs.com/package/node-mcsrvstat) [![npm download](https://badgen.net/npm/dt/node-mcsrvstat)](https://www.npmjs.com/package/node-mcsrvstat) [![npm license](https://badgen.net/npm/license/node-mcsrvstat)](https://www.npmjs.com/package/node-mcsrvstat) [![npm types](https://badgen.net/npm/types/node-mcsrvstat)](https://www.npmjs.com/package/node-mcsrvstat)
+[![npm dependents](https://badgen.net/npm/v/mcsrvstat)](https://www.npmjs.com/package/mcsrvstat) [![npm download](https://badgen.net/npm/dt/mcsrvstat)](https://www.npmjs.com/package/mcsrvstat) [![npm license](https://badgen.net/npm/license/mcsrvstat)](https://www.npmjs.com/package/mcsrvstat) [![npm types](https://badgen.net/npm/types/mcsrvstat)](https://www.npmjs.com/package/mcsrvstat)
 
 [![github release](https://badgen.net/github/release/chokojoestar/ProjectCreator)](https://github.com/chokojoestar/ProjectCreator/releases) [![github issues](https://badgen.net/github/issues/chokojoestar/ProjectCreator)](https://github.com/chokojoestar/ProjectCreator/issues) [![github commit](https://badgen.net/github/commits/chokojoestar/ProjectCreator)](https://github.com/ChokoJoestar/ProjectCreator/commits)
 
@@ -25,19 +25,19 @@
 ### With NPM
 ```sh
 # Locally
-npm install -D node-mcsrvstat
+npm install -D mcsrvstat
 
 # Or globally
-npm install -g node-mcsrvstat
+npm install -g mcsrvstat
 ```
 
 ### With YARN
 ```sh
 # Locally
-yarn add -D node-mcsrvstat
+yarn add -D mcsrvstat
 
 # Or globally
-yarn add -g node-mcsrvstat
+yarn add -g mcsrvstat
 ```
 
 ## Example

@@ -1,9 +1,9 @@
 {
-   "name": "node-mcsrvstat",
-   "version": "1.0.2",
+   "name": "mcsrvstat",
+   "version": "1.0.0",
    "description": "A npm Package who interacting with the mcsrvstat.us API.",
    "main": "dist/index.js",
-   "repository": "https://github.com/ChokoJoestar/node-mcsrvstat",
+   "repository": "https://github.com/ChokoJoestar/mcsrvstat",
    "author": "ChokoJoestar",
    "license": "MIT",
    "private": false,
@@ -15,7 +15,7 @@
       "library"
    ],
    "bugs": {
-      "url": "https://github.com/ChokoJoestar/node-mcsrvstat/issues"
+      "url": "https://github.com/ChokoJoestar/mcsrvstat/issues"
    },
    "devDependencies": {
       "@types/node": "^20.3.1",
@@ -26,6 +26,10 @@
       "superagent": "^8.0.9"
    },
    "scripts": {
-    "start": "tsc && node dist/index.js"
+      "build": "tsc",
+      "link": "yarn unlink && yarn build && yarn link",
+      "start:build": "yarn build && node dist/index.js",
+      "publishToNpm": "yarn publish",
+      "publish:build": "yarn build && yarn publish"
    }
 }
