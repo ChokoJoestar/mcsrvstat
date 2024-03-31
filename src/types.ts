@@ -1,6 +1,7 @@
 export interface IStatus {
-   online: boolean;
    ip: string;
+   hostname?: string;
+   online: boolean;
    port: number;
    debug: {
       ping: boolean;
@@ -14,10 +15,20 @@ export interface IStatus {
       cachetime: number;
       cacheexpire: number;
       apiversion: number;
+      dns: {};
+      error?: { query?: string, ping?: string }
    };
 }
 
 export interface JavaStatus extends IStatus {
+   version: string | string[];
+   icon?: string;
+   software?: string;
+   eula_blocked: boolean;
+   protocol: {
+      version: number
+      name: string
+   };
    motd: {
       raw: string[];
       clean: string[];
@@ -29,12 +40,6 @@ export interface JavaStatus extends IStatus {
       list?: string[];
       uuid?: {};
    };
-   version: string | string[];
-   protocol: number;
-   hostname?: string;
-   icon?: string;
-   software?: string;
-   map?: string;
    plugins?: {
       names: string[];
       raw: string[];
@@ -50,7 +55,25 @@ export interface JavaStatus extends IStatus {
    };
 }
 
-export interface BedrockStatus extends JavaStatus {
+export interface BedrockStatus extends IStatus {
+   version: string;
    gamemode: string;
    serverid: string;
+   protocol: { 
+      version: number 
+   }
+   map: {
+      raw: string;
+      clean: string;
+      html: string;
+   };
+   motd: {
+      raw: string[];
+      clean: string[];
+      html: string[];
+   };
+   players: {
+      online: number;
+      max: number;
+   };
 }
