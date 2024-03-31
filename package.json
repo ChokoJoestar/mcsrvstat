@@ -1,6 +1,6 @@
 {
    "name": "mcsrvstat",
-   "version": "1.2.0",
+   "version": "1.2.1",
    "description": "A npm Package who interacting with the mcsrvstat.us API.",
    "main": "dist/index.js",
    "repository": "https://github.com/ChokoJoestar/mcsrvstat",
