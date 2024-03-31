@@ -4,7 +4,7 @@
 
 [![npm dependents](https://badgen.net/npm/v/mcsrvstat)](https://www.npmjs.com/package/mcsrvstat) [![npm download](https://badgen.net/npm/dt/mcsrvstat)](https://www.npmjs.com/package/mcsrvstat) [![npm license](https://badgen.net/npm/license/mcsrvstat)](https://www.npmjs.com/package/mcsrvstat) [![npm types](https://badgen.net/npm/types/mcsrvstat)](https://www.npmjs.com/package/mcsrvstat)
 
-[![github release](https://badgen.net/github/release/chokojoestar/ProjectCreator)](https://github.com/chokojoestar/ProjectCreator/releases) [![github issues](https://badgen.net/github/issues/chokojoestar/ProjectCreator)](https://github.com/chokojoestar/ProjectCreator/issues) [![github commit](https://badgen.net/github/commits/chokojoestar/ProjectCreator)](https://github.com/ChokoJoestar/ProjectCreator/commits)
+[![github release](https://badgen.net/github/release/chokojoestar/mcsrvstat)](https://github.com/ChokoJoestar/mcsrvstat/releases) [![github issues](https://badgen.net/github/issues/chokojoestar/mcsrvstat)](https://github.com/ChokoJoestar/mcsrvstat/issues) [![github commit](https://badgen.net/github/commits/chokojoestar/mcsrvstat)](https://github.com/ChokoJoestar/mcsrvstat/commits)
 
 
 </div>
